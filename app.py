@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World, from inside the changed application!"
+    return "Hello World, from inside the changed application! from QL "
 
 
 if __name__ == "__main__":
